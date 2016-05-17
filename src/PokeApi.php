@@ -4,7 +4,7 @@ class PokeApi
 {
     public function __construct()
     {
-        $this->url = 'https://pokeapi.co/api/v2/';
+        $this->apiUrl = 'https://pokeapi.co/api/v2/';
     }
 
     public function sendRequest($uri)
