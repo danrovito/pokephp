@@ -9,7 +9,7 @@ class PokeApi
     
     public function resourceList($endpoint, $limit = null, $offset = null)
     {
-        $url = $this->baseUrl.$endpoint.'/?limit='.$limite.'&offset='.$offset;
+        $url = $this->baseUrl.$endpoint.'/?limit='.$limit.'&offset='.$offset;
         
         return $this->sendRequest($url);
     }
