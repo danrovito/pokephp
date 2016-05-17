@@ -3,11 +3,19 @@ A PHP Wrapper for the Pokemon API (pokeapi.co)
 
 # Getting Started
 
-To get started you must first install the library from composer.
+To get started you must first install the package from composer.
 
 ```
 composer require danrovito/pokephp
 ```
+
+After composer installs the required package you can call the class by setting the following:
+
+```php
+$api = new PokeApi;
+```
+
+This will give you the instance of the class to call the API functions.  Below you will see examples for each endpoint.  I utilize the `$api` variable we created above to call each function.
 
 # Usage
 
