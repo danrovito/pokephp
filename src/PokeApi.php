@@ -48,6 +48,13 @@ class PokeApi
         
         return $this->sendRequest($url);
     }
+    
+    public function superContestEffect($id)
+    {
+        $url = $this->baseUrl.'super-contest-effect/'.$id;
+        
+        return $this->sendRequest($url);
+    }
 
     public function sendRequest($url)
     {
