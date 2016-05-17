@@ -11,7 +11,7 @@ Calling any API endpoint without a resource ID or name will return a paginated l
 
 ### Sample Code
 
-```
+```PHP
 use PokeApi;
 $api = new PokeApi;
 $response = $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
