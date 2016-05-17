@@ -13,6 +13,13 @@ class PokeApi
         
         return $this->sendRequest($url);
     }
+    
+    public function berry($lookUp)
+    {
+        $url = $this->baseUrl.'berry/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
 
     public function sendRequest($url)
     {
