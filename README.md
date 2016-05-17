@@ -39,6 +39,9 @@ You can pass a `name` or an `id` to receive the berry response
 $api->berry('NAME OR ID');
 ```
 
+
+
+
 ## License
 
 pokephp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
