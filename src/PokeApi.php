@@ -34,6 +34,20 @@ class PokeApi
         
         return $this->sendRequest($url);
     }
+    
+    public function contestType($lookUp)
+    {
+        $url = $this->baseUrl.'contest-type/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+    
+    public function contestEffect($lookUp)
+    {
+        $url = $this->baseUrl.'contest-effect/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
 
     public function sendRequest($url)
     {
