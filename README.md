@@ -3,6 +3,12 @@ A PHP Wrapper for the Pokemon API (pokeapi.co)
 
 # Getting Started
 
+To get started you must first install the library from composer.
+
+```
+composer require danrovito/pokephp
+```
+
 # Usage
 
 ### Resource List
