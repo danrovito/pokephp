@@ -29,6 +29,16 @@ Calling any API endpoint without a resource ID or name will return a paginated l
 $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
 ```
 
+### Berries
+
+You can pass a `name` or an `id` to receive the berry response
+
+#### Sample Code
+
+```PHP
+$api->berry('NAME OR ID');
+```
+
 ## License
 
 pokephp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
