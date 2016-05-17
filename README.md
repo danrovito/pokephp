@@ -5,11 +5,11 @@ A PHP Wrapper for the Pokemon API (pokeapi.co)
 
 # Usage
 
-## Resource List
+### Resource List
 
 Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.
 
-### Sample Code
+#### Sample Code
 
 ```PHP
 use PokeApi;
