@@ -49,6 +49,16 @@ You can pass a `name` or an `id` to receive the berry firmness
 $api->berryFirmness('NAME OR ID');
 ```
 
+### Berry Flavor
+
+You can pass a `name` or an `id` to receive the berry flavor
+
+#### Sample Code
+
+```PHP
+$api->berryFlavor('NAME OR ID');
+```
+
 
 ## License
 
