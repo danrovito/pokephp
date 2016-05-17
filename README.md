@@ -51,6 +51,22 @@ You can pass a `name` or an `id` to receive the berry flavor
 $api->berryFlavor('NAME OR ID');
 ```
 
+### Contest Types
+
+You can pass a `name` or an `id` to receive the contest type
+
+```PHP
+$api->contestType('NAME OR ID');
+```
+
+### Contest Effects
+
+You can pass an `id` to receive the contest effects
+
+```PHP
+$api->contestType('ID');
+```
+
 
 ## License
 
