@@ -6,15 +6,22 @@ class PokeApi
     {
         $this->baseUrl = 'https://pokeapi.co/api/v2/';
     }
+    
+    public function resourceList($endpoint, $limit = null, $offset = null)
+    {
+        $url = $this->baseUrl.$endpoint.'/?limit='.$limite.'&offset='.$offset;
+        
+        return $this->sendRequest($url);
+    }
 
-    public function sendRequest($uri)
+    public function sendRequest($url)
     {
         //return $uri;
         $ch = curl_init();
 
         $timeout = 5;
 
-        curl_setopt($ch, CURLOPT_URL, $uri);
+        curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
         $data = curl_exec($ch);
