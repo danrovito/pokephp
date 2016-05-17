@@ -20,6 +20,13 @@ class PokeApi
         
         return $this->sendRequest($url);
     }
+    
+    public function berryFirmness($lookUp)
+    {
+        $url = $this->baseUrl.'berry-firmness/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
 
     public function sendRequest($url)
     {
