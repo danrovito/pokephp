@@ -39,7 +39,15 @@ You can pass a `name` or an `id` to receive the berry response
 $api->berry('NAME OR ID');
 ```
 
+### Berry Firmnesses
 
+You can pass a `name` or an `id` to receive the berry firmness
+
+#### Sample Code
+
+```PHP
+$api->berryFirmness('NAME OR ID');
+```
 
 
 ## License
