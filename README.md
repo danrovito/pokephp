@@ -7,7 +7,7 @@ A PHP Wrapper for the Pokemon API (pokeapi.co)
 
 ### Resource List
 
-Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.
+Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.  You can read more about resource list usage [here](https://pokeapi.co/docsv2/#resource-lists).  The Limit and Offset parameters are optional. 
 
 #### Sample Code
 
