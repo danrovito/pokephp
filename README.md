@@ -23,8 +23,6 @@ This will give you the instance of the class to call the API functions.  Below y
 
 Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.  You can read more about resource list usage [here](https://pokeapi.co/docsv2/#resource-lists).  The Limit and Offset parameters are optional. 
 
-#### Sample Code
-
 ```PHP
 $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
 ```
@@ -32,8 +30,6 @@ $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
 ### Berries
 
 You can pass a `name` or an `id` to receive the berry response
-
-#### Sample Code
 
 ```PHP
 $api->berry('NAME OR ID');
@@ -43,8 +39,6 @@ $api->berry('NAME OR ID');
 
 You can pass a `name` or an `id` to receive the berry firmness
 
-#### Sample Code
-
 ```PHP
 $api->berryFirmness('NAME OR ID');
 ```
@@ -52,8 +46,6 @@ $api->berryFirmness('NAME OR ID');
 ### Berry Flavor
 
 You can pass a `name` or an `id` to receive the berry flavor
-
-#### Sample Code
 
 ```PHP
 $api->berryFlavor('NAME OR ID');
