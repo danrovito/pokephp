@@ -27,6 +27,13 @@ class PokeApi
         
         return $this->sendRequest($url);
     }
+    
+    public function berryFlavor($lookUp)
+    {
+        $url = $this->baseUrl.'berry-flavor/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
 
     public function sendRequest($url)
     {
