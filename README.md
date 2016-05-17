@@ -1,5 +1,5 @@
 # PokePHP
-A PHP Wrapper for the (Pokemon API)[pokeapi.co]
+A PHP Wrapper for the (Pokemon API)[https://pokeapi.co/]
 
 # Getting Started
 
