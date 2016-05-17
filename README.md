@@ -59,12 +59,20 @@ You can pass a `name` or an `id` to receive the contest type
 $api->contestType('NAME OR ID');
 ```
 
-### Contest Effects
+### Contest Effect
 
-You can pass an `id` to receive the contest effects
+You can pass an `id` to receive the contest effect
 
 ```PHP
-$api->contestType('ID');
+$api->contestEffect('ID');
+```
+
+### Super Contest Effect
+
+You can pass an `id` to receive the super contest effect
+
+```PHP
+$api->superContestEffect('ID');
 ```
 
 
