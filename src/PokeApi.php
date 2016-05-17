@@ -42,9 +42,9 @@ class PokeApi
         return $this->sendRequest($url);
     }
     
-    public function contestEffect($lookUp)
+    public function contestEffect($id)
     {
-        $url = $this->baseUrl.'contest-effect/'.$lookUp;
+        $url = $this->baseUrl.'contest-effect/'.$id;
         
         return $this->sendRequest($url);
     }
