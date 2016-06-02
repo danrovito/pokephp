@@ -85,10 +85,18 @@ $api->encounterMethod('NAME OR ID');
 
 ### Encounter Condition
 
-You can pass a `name` or an `id` to receive the encounter method
+You can pass a `name` or an `id` to receive the encounter condition
 
 ```PHP
 $api->encounterCondition('NAME OR ID');
+```
+
+### Encounter Condition Values
+
+You can pass a `name` or an `id` to receive the encounter condition value
+
+```PHP
+$api->encounterConditionValue('NAME OR ID');
 ```
 
 
