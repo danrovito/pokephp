@@ -80,7 +80,7 @@ $api->superContestEffect('ID');
 You can pass a `name` or an `id` to receive the encounter method
 
 ```PHP
-$api->encounterMethod('ID');
+$api->encounterMethod('NAME OR ID');
 ```
 
 
