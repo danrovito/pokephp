@@ -75,6 +75,14 @@ You can pass an `id` to receive the super contest effect
 $api->superContestEffect('ID');
 ```
 
+### Encounter Method
+
+You can pass a `name` or an `id` to receive the encounter method
+
+```PHP
+$api->encounterMethod('ID');
+```
+
 
 ## License
 
