@@ -71,6 +71,13 @@ class PokeApi
         
         return $this->sendRequest($url);
     }
+    
+    public function encounterConditionValue($lookUp)
+    {
+        $url = $this->baseUrl.'encounter-condition-value/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
 
     public function sendRequest($url)
     {
