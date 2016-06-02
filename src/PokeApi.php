@@ -57,6 +57,13 @@ class PokeApi
         
         return $this->sendRequest($url);
     }
+    
+    public function encounterMethod($lookUp)
+    {
+        $url = $this->baseUrl.'encounter-method/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
 
     public function sendRequest($url)
     {
