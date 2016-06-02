@@ -79,6 +79,48 @@ class PokeApi
         return $this->sendRequest($url);
     }
 
+    public function evolutionChain($id)
+    {
+        $url = $this->baseUrl.'evolution-chain/'.$id;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function evolutionTrigger($lookUp)
+    {
+        $url = $this->baseUrl.'evolution-trigger/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function gameGeneration($lookUp)
+    {
+        $url = $this->baseUrl.'generation/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function pokedex($lookUp)
+    {
+        $url = $this->baseUrl.'pokedex/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function version($lookUp)
+    {
+        $url = $this->baseUrl.'version/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function versionGroup($lookUp)
+    {
+        $url = $this->baseUrl.'version-group/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
     public function sendRequest($url)
     {
         //return $uri;
