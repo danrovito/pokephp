@@ -27,6 +27,8 @@ Calling any API endpoint without a resource ID or name will return a paginated l
 $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
 ```
 
+## Berries
+
 ### Berries
 
 You can pass a `name` or an `id` to receive the berry response
@@ -50,6 +52,8 @@ You can pass a `name` or an `id` to receive the berry flavor
 ```PHP
 $api->berryFlavor('NAME OR ID');
 ```
+
+## Contests
 
 ### Contest Types
 
@@ -75,6 +79,8 @@ You can pass an `id` to receive the super contest effect
 $api->superContestEffect('ID');
 ```
 
+## Encounters
+
 ### Encounter Method
 
 You can pass a `name` or an `id` to receive the encounter method
@@ -99,6 +105,57 @@ You can pass a `name` or an `id` to receive the encounter condition value
 $api->encounterConditionValue('NAME OR ID');
 ```
 
+## Evolution
+
+### Evolution Chain
+
+You can pass an `id` to receive the evolution chain
+
+```PHP
+$api->evolutionChain('ID');
+```
+
+### Evolution Trigger
+
+You can pass a `name` or an `id` to receive the evolution trigger
+
+```PHP
+$api->evolutionTrigger('NAME OR ID');
+```
+
+## Games
+
+### Game Generation
+
+You can pass a `name` or an `id` to receive the game generation
+
+```PHP
+$api->gameGeneration('NAME OR ID');
+```
+
+### Pokedex
+
+You can pass a `name` or an `id` to receive the pokedex
+
+```PHP
+$api->pokedex('NAME OR ID');
+```
+
+### Version
+
+You can pass a `name` or an `id` to receive the game version
+
+```PHP
+$api->version('NAME OR ID');
+```
+
+### Version Group
+
+You can pass a `name` or an `id` to receive the game version group
+
+```PHP
+$api->versionGroup('NAME OR ID');
+```
 
 ## License
 
