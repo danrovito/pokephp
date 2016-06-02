@@ -19,7 +19,7 @@ This will give you the instance of the class to call the API functions.  Below y
 
 # Usage
 
-### Resource List
+#### Resource List
 
 Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.  You can read more about resource list usage [here](https://pokeapi.co/docsv2/#resource-lists).  The Limit and Offset parameters are optional. 
 
@@ -29,7 +29,7 @@ $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
 
 ## Berries
 
-#### Berries
+##### Berries
 
 You can pass a `name` or an `id` to receive the berry response
 
@@ -37,7 +37,7 @@ You can pass a `name` or an `id` to receive the berry response
 $api->berry('NAME OR ID');
 ```
 
-### Berry Firmnesses
+##### Berry Firmnesses
 
 You can pass a `name` or an `id` to receive the berry firmness
 
@@ -45,7 +45,7 @@ You can pass a `name` or an `id` to receive the berry firmness
 $api->berryFirmness('NAME OR ID');
 ```
 
-### Berry Flavor
+##### Berry Flavor
 
 You can pass a `name` or an `id` to receive the berry flavor
 
@@ -55,7 +55,7 @@ $api->berryFlavor('NAME OR ID');
 
 ## Contests
 
-### Contest Types
+##### Contest Types
 
 You can pass a `name` or an `id` to receive the contest type
 
@@ -63,7 +63,7 @@ You can pass a `name` or an `id` to receive the contest type
 $api->contestType('NAME OR ID');
 ```
 
-### Contest Effect
+#### Contest Effect
 
 You can pass an `id` to receive the contest effect
 
@@ -71,7 +71,7 @@ You can pass an `id` to receive the contest effect
 $api->contestEffect('ID');
 ```
 
-### Super Contest Effect
+#### Super Contest Effect
 
 You can pass an `id` to receive the super contest effect
 
@@ -81,7 +81,7 @@ $api->superContestEffect('ID');
 
 ## Encounters
 
-### Encounter Method
+#### Encounter Method
 
 You can pass a `name` or an `id` to receive the encounter method
 
@@ -89,7 +89,7 @@ You can pass a `name` or an `id` to receive the encounter method
 $api->encounterMethod('NAME OR ID');
 ```
 
-### Encounter Condition
+#### Encounter Condition
 
 You can pass a `name` or an `id` to receive the encounter condition
 
@@ -97,7 +97,7 @@ You can pass a `name` or an `id` to receive the encounter condition
 $api->encounterCondition('NAME OR ID');
 ```
 
-### Encounter Condition Values
+#### Encounter Condition Values
 
 You can pass a `name` or an `id` to receive the encounter condition value
 
@@ -107,7 +107,7 @@ $api->encounterConditionValue('NAME OR ID');
 
 ## Evolution
 
-### Evolution Chain
+#### Evolution Chain
 
 You can pass an `id` to receive the evolution chain
 
@@ -115,7 +115,7 @@ You can pass an `id` to receive the evolution chain
 $api->evolutionChain('ID');
 ```
 
-### Evolution Trigger
+#### Evolution Trigger
 
 You can pass a `name` or an `id` to receive the evolution trigger
 
@@ -125,7 +125,7 @@ $api->evolutionTrigger('NAME OR ID');
 
 ## Games
 
-### Game Generation
+#### Game Generation
 
 You can pass a `name` or an `id` to receive the game generation
 
@@ -133,7 +133,7 @@ You can pass a `name` or an `id` to receive the game generation
 $api->gameGeneration('NAME OR ID');
 ```
 
-### Pokedex
+#### Pokedex
 
 You can pass a `name` or an `id` to receive the pokedex
 
@@ -141,7 +141,7 @@ You can pass a `name` or an `id` to receive the pokedex
 $api->pokedex('NAME OR ID');
 ```
 
-### Version
+#### Version
 
 You can pass a `name` or an `id` to receive the game version
 
@@ -149,7 +149,7 @@ You can pass a `name` or an `id` to receive the game version
 $api->version('NAME OR ID');
 ```
 
-### Version Group
+#### Version Group
 
 You can pass a `name` or an `id` to receive the game version group
 
@@ -161,10 +161,10 @@ $api->versionGroup('NAME OR ID');
 
 pokephp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
-### Bug Reporting and Feature Requests
+#### Bug Reporting and Feature Requests
 
 Please add as many details as possible regarding submission of issues and feature requests
 
-### Disclaimer
+#### Disclaimer
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
