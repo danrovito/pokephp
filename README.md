@@ -63,7 +63,7 @@ You can pass a `name` or an `id` to receive the contest type
 $api->contestType('NAME OR ID');
 ```
 
-#### Contest Effect
+##### Contest Effect
 
 You can pass an `id` to receive the contest effect
 
