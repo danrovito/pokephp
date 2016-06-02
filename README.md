@@ -29,7 +29,7 @@ $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
 
 ## Berries
 
-### Berries
+#### Berries
 
 You can pass a `name` or an `id` to receive the berry response
 
