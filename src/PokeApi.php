@@ -121,6 +121,118 @@ class PokeApi
         return $this->sendRequest($url);
     }
 
+    public function item($lookUp)
+    {
+        $url = $this->baseUrl.'item/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function itemAttribute($lookUp)
+    {
+        $url = $this->baseUrl.'item-attribute/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function itemCategory($lookUp)
+    {
+        $url = $this->baseUrl.'item-category/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function itemFlingEffect($lookUp)
+    {
+        $url = $this->baseUrl.'item-fling-effect/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function itemPocket($lookUp)
+    {
+        $url = $this->baseUrl.'item-pocket/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function move($lookUp)
+    {
+        $url = $this->baseUrl.'move/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function moveAilment($lookUp)
+    {
+        $url = $this->baseUrl.'move-ailment/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function moveBattleStyle($lookUp)
+    {
+        $url = $this->baseUrl.'move-battle-style/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function moveCategory($lookUp)
+    {
+        $url = $this->baseUrl.'move-category/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function moveDamageClass($lookUp)
+    {
+        $url = $this->baseUrl.'move-damage-class/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function moveLearnMethod($lookUp)
+    {
+        $url = $this->baseUrl.'move-learn-method/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function moveTarget($lookUp)
+    {
+        $url = $this->baseUrl.'move-target/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function location($id)
+    {
+        $url = $this->baseUrl.'location/'.$id;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function locationArea($id)
+    {
+        $url = $this->baseUrl.'location-area/'.$id;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function palParkArea($lookUp)
+    {
+        $url = $this->baseUrl.'pal-park-area/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function region($lookUp)
+    {
+        $url = $this->baseUrl.'region/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
     public function sendRequest($url)
     {
         //return $uri;
