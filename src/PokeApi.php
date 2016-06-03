@@ -233,6 +233,27 @@ class PokeApi
         return $this->sendRequest($url);
     }
 
+    public function ability($lookUp)
+    {
+        $url = $this->baseUrl.'ability/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function characteristic($id)
+    {
+        $url = $this->baseUrl.'characteristic/'.$id;
+        
+        return $this->sendRequest($url);
+    }
+
+    public function eggGroup($lookUp)
+    {
+        $url = $this->baseUrl.'egg-group/'.$lookUp;
+        
+        return $this->sendRequest($url);
+    }
+
     public function sendRequest($url)
     {
         //return $uri;
