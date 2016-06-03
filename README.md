@@ -291,6 +291,32 @@ You can pass a `name` or an `id` to receive the region
 $api->region('NAME OR ID');
 ```
 
+## Pokemon
+
+##### Abilities
+
+You can pass a `name` or an `id` to receive the ability
+
+```PHP
+$api->ability('NAME OR ID');
+```
+
+##### Characteristic
+
+You can pass an `id` to receive the characteristic
+
+```PHP
+$api->characteristic('ID');
+```
+
+##### Egg Group
+
+You can pass a `name` or an `id` to receive the egg group
+
+```PHP
+$api->eggGroup('NAME OR ID');
+```
+
 ## License
 
 pokephp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
