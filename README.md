@@ -157,6 +157,140 @@ You can pass a `name` or an `id` to receive the game version group
 $api->versionGroup('NAME OR ID');
 ```
 
+## Items
+
+##### Item
+
+You can pass a `name` or an `id` to receive the item
+
+```PHP
+$api->item('NAME OR ID');
+```
+
+##### Item Attribute
+
+You can pass a `name` or an `id` to receive the item attribute
+
+```PHP
+$api->itemAttribute('NAME OR ID');
+```
+
+##### Item Category
+
+You can pass a `name` or an `id` to receive the item category
+
+```PHP
+$api->itemCategory('NAME OR ID');
+```
+
+##### Item Fling Effect
+
+You can pass a `name` or an `id` to receive the item fling effect
+
+```PHP
+$api->itemFlingEffect('NAME OR ID');
+```
+
+##### Item Pocket
+
+You can pass a `name` or an `id` to receive the item pocket
+
+```PHP
+$api->itemPocket('NAME OR ID');
+```
+
+## Moves
+
+##### Move
+
+You can pass a `name` or an `id` to receive the move
+
+```PHP
+$api->move('NAME OR ID');
+```
+
+##### Move Ailment
+
+You can pass a `name` or an `id` to receive the move ailment
+
+```PHP
+$api->moveAilment('NAME OR ID');
+```
+
+##### Move Battle Style
+
+You can pass a `name` or an `id` to receive the move battle style
+
+```PHP
+$api->moveBattleStyle('NAME OR ID');
+```
+
+##### Move Category
+
+You can pass a `name` or an `id` to receive the move category
+
+```PHP
+$api->moveCategory('NAME OR ID');
+```
+
+##### Move Damage Class
+
+You can pass a `name` or an `id` to receive the move damage class
+
+```PHP
+$api->moveDamageClass('NAME OR ID');
+```
+
+##### Move Learn Method
+
+You can pass a `name` or an `id` to receive the move learn method
+
+```PHP
+$api->moveLearnMethod('NAME OR ID');
+```
+
+##### Move Target
+
+You can pass a `name` or an `id` to receive the move target
+
+```PHP
+$api->moveTarget('NAME OR ID');
+```
+
+## Locations
+
+##### Location
+
+You can pass an `id` to receive the location
+
+```PHP
+$api->location('ID');
+```
+
+##### Location Area
+
+You can pass an `id` to receive the location area
+
+```PHP
+$api->locationArea('ID');
+```
+
+##### Pal Park Areas
+
+You can pass a `name` or an `id` to receive the Pal park areas
+
+```PHP
+$api->palParkArea('NAME OR ID');
+```
+
+##### Reagion
+
+You can pass a `name` or an `id` to receive the region
+
+```PHP
+$api->region('NAME OR ID');
+```
+
 ## License
 
 pokephp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
