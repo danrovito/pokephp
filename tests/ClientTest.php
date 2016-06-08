@@ -11,7 +11,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
         $response = $poke->resourceList('evolution-chain', '20', '20');
 
         //$this->assertJson($response, 'message');
-        $data = json_decode($response->getBody(true), true);
+        $data = json_decode($response, true);
         $this->assertArrayHasKey('count', $data);
     }
 }
