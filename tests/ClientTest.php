@@ -1,6 +1,6 @@
 <?php
 
-
+require_once 'src/PokeApi.php';
 
 class ClientTest extends \PHPUnit_Framework_TestCase
 {
