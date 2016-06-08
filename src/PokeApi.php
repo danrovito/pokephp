@@ -271,7 +271,7 @@ class PokeApi
         curl_close($ch);
 
         if ($http_code != 200) {
-            return json_encode('An error has occured.');
+            return print 'An error has occured.';
         }
 
         return $data;
