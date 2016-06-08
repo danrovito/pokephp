@@ -1,5 +1,7 @@
 <?php
 
+namespace PokePhp;
+
 class PokeApi
 {
     public function __construct()
