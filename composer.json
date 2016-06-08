@@ -20,7 +20,7 @@
     "ext-mbstring": "*"
   },
   "autoload": {
-        "psr-4": { "DanRovito\\PokePhp\\": "src/" }
+        "psr-4": { "": "src/" }
   },
   "minimum-stability": "dev",
   "extra": {
