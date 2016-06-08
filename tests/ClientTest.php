@@ -12,7 +12,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
 
         $this->assertJson($response, 'message');
     }
-    
+
     public function testBerry()
     {
         $poke = new PokeApi();
