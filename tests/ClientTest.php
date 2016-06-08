@@ -1,6 +1,6 @@
 <?php
 
-use PokePHP;
+use PokePHP\PokeApi;
 
 class ClientTest extends \PHPUnit_Framework_TestCase
 {
