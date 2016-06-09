@@ -319,6 +319,40 @@ You can pass a `name` or an `id` to receive the egg group
 $api->eggGroup('NAME OR ID');
 ```
 
+##### Gender
+
+You can pass a `name` or an `id` to receive the gender
+
+```PHP
+$api->gender('NAME OR ID');
+```
+
+##### Growth Rate
+
+You can pass a `name` or an `id` to receive the growth rate
+
+```PHP
+$api->growthRate('NAME OR ID');
+```
+
+##### Pokeathlon Stats
+
+You can pass a `name` or an `id` to receive the Pokeathlon Stats
+
+```PHP
+$api->pokeathlonStat('NAME OR ID');
+```
+
+##### Pokemon
+
+You can pass a `name` or an `id` to receive the Pokemon
+
+```PHP
+$api->pokemon('NAME OR ID');
+```
+
+
+
 ## License
 
 pokephp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
