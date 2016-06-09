@@ -254,6 +254,41 @@ class PokeApi
         return $this->sendRequest($url);
     }
 
+    public function gender($lookUp)
+    {
+        $url = $this->baseUrl.'gender/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function growthRate($lookUp)
+    {
+        $url = $this->baseUrl.'growth-rate/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function nature($lookUp)
+    {
+        $url = $this->baseUrl.'nature/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokeathlonStat($lookUp)
+    {
+        $url = $this->baseUrl.'pokeathlon-stat/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokemon($lookUp)
+    {
+        $url = $this->baseUrl.'pokemon/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
     public function sendRequest($url)
     {
         //return $uri;
