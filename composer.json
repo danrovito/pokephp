@@ -1,31 +1,34 @@
 {
-  "name": "danrovito/pokephp",
-  "description": "Pokeapi PHP Wrapper",
-  "keywords": [
-    "pokemon",
-    "php",
-    "pokeapi"
-  ],
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Dan Rovito",
-      "email": "danrovito@gmail.com"
-    }
-  ],
-  "require": {
-    "php": ">=5.3.3",
-    "ext-curl": "*",
-    "ext-json": "*",
-    "ext-mbstring": "*"
-  },
-  "autoload": {
+    "name": "danrovito/pokephp",
+    "description": "Pokeapi PHP Wrapper",
+    "keywords": [
+        "pokemon",
+        "php",
+        "pokeapi"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan Rovito",
+            "email": "danrovito@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*"
+    },
+    "autoload": {
         "psr-4": { "PokePHP\\": "src/" }
-  },
-  "minimum-stability": "dev",
-  "extra": {
-    "branch-alias": {
-      "dev-master": "1.0.0-dev"
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0-dev"
+        }
     }
-  }
 }
