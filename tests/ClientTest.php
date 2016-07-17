@@ -21,7 +21,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
 
         //json files to match
         $berryJson = json_decode('/responses/berry.json');
-        $responseJson = json_decode($responseJson);
+        $responseJson = json_decode($response);
 
         $this->assertTrue(json_match($responseJson, $berryJson));
 
