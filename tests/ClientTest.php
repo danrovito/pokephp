@@ -36,7 +36,7 @@ class ClientTest extends \PHPUnit_Framework_TestCase
         }
         // we know that the indexes, but maybe not values, match.
         // compare the values between the two arrays
-        foreach($a as $k => $v) {
+        foreach ($a as $k => $v) {
             if ($v !== $b[$k]) {
                 return false;
             }
