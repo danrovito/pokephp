@@ -14,6 +14,7 @@ composer require danrovito/pokephp
 After composer installs the required package you can call the class by setting the following:
 
 ```php
+use PokePHP\PokeApi;
 $api = new PokeApi;
 ```
 
