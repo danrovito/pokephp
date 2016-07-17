@@ -345,6 +345,9 @@ class PokeApi
         return $this->sendRequest($url);
     }
 
+    /**
+     * @param string $url
+     */
     public function sendRequest($url)
     {
         //return $uri;
