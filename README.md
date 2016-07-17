@@ -23,7 +23,7 @@ This will give you the instance of the class to call the API functions.  Below y
 
 #### Resource List
 
-Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.  You can read more about resource list usage [here](https://pokeapi.co/docsv2/#resource-lists).  The Limit and Offset parameters are optional. 
+Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.  You can read more about resource list usage [here](https://pokeapi.co/docsv2/#resource-lists).  The Limit and Offset parameters are optional.
 
 ```PHP
 $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
@@ -351,7 +351,71 @@ You can pass a `name` or an `id` to receive the Pokemon
 $api->pokemon('NAME OR ID');
 ```
 
+##### Pokemon Color
 
+You can pass a `name` or an `id` to receive the Pokemon Color
+
+```PHP
+$api->pokemonColor('NAME OR ID');
+```
+
+##### Pokemon Form
+
+You can pass a `name` or an `id` to receive the Pokemon Form
+
+```PHP
+$api->pokemonForm('NAME OR ID');
+```
+
+##### Pokemon Habitat
+
+You can pass a `name` or an `id` to receive the Pokemon Habitat
+
+```PHP
+$api->pokemonHabitat('NAME OR ID');
+```
+
+##### Pokemon Shape
+
+You can pass a `name` or an `id` to receive the Pokemon Shape
+
+```PHP
+$api->pokemonShape('NAME OR ID');
+```
+
+##### Pokemon Species
+
+You can pass a `name` or an `id` to receive the Pokemon Species
+
+```PHP
+$api->pokemonSpecies('NAME OR ID');
+```
+
+##### Pokemon Stat
+
+You can pass a `name` or an `id` to receive the Pokemon Stat
+
+```PHP
+$api->pokemonStat('NAME OR ID');
+```
+
+##### Pokemon Type
+
+You can pass a `name` or an `id` to receive the Pokemon Type
+
+```PHP
+$api->pokemonType('NAME OR ID');
+```
+
+## Utility
+
+##### Language
+
+You can pass a `name` or an `id` to receive the language
+
+```PHP
+$api->language('NAME OR ID');
+```
 
 ## License
 
@@ -364,4 +428,3 @@ Please add as many details as possible regarding submission of issues and featur
 ## Disclaimer
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- 

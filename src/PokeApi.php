@@ -289,6 +289,62 @@ class PokeApi
         return $this->sendRequest($url);
     }
 
+    public function pokemonColor($lookUp)
+    {
+        $url = $this->baseUrl.'pokemon-color/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokemonForm($lookUp)
+    {
+        $url = $this->baseUrl.'pokemon-form/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokemonHabitat($lookUp)
+    {
+        $url = $this->baseUrl.'pokemon-habitat/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokemonShape($lookUp)
+    {
+        $url = $this->baseUrl.'pokemon-shape/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokemonSpecies($lookUp)
+    {
+        $url = $this->baseUrl.'pokemon-species/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokemonStat($lookUp)
+    {
+        $url = $this->baseUrl.'stat/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function pokemonType($lookUp)
+    {
+        $url = $this->baseUrl.'type/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
+    public function language($lookUp)
+    {
+        $url = $this->baseUrl.'language/'.$lookUp;
+
+        return $this->sendRequest($url);
+    }
+
     public function sendRequest($url)
     {
         //return $uri;
