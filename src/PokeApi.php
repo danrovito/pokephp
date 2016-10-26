@@ -350,7 +350,6 @@ class PokeApi
      */
     public function sendRequest($url)
     {
-        //return $uri;
         $ch = curl_init();
 
         $timeout = 5;
