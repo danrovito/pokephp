@@ -24,7 +24,7 @@ This will give you the instance of the class to call the API functions.  Below y
 
 #### Resource List
 
-Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API.  You can read more about resource list usage [here](https://pokeapi.co/docsv2/#resource-lists).  The Limit and Offset parameters are optional.
+Calling any API endpoint without a resource ID or name will return a paginated list of available resources for that API call.  You can read more about resource list usage [here](https://pokeapi.co/docsv2/#resource-lists).  The Limit and Offset parameters are optional.
 
 ```PHP
 $api->resourceList('ENDPOINT', 'LIMIT', 'OFFSET');
@@ -424,7 +424,7 @@ pokephp is open-sourced software licensed under the [MIT license](http://opensou
 
 ## Bug Reporting and Feature Requests
 
-Please add as many details as possible regarding submission of issues and feature requests
+Please add as much detail as possible regarding the submission of issues and feature requests
 
 ## Disclaimer
 
