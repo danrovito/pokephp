@@ -1,14 +1,14 @@
 # PokePHP
 A PHP Wrapper for the [Pokemon API](https://pokeapi.co/)
 
-[![Build Status](https://travis-ci.org/danrovito/pokephp.svg?branch=master)](https://travis-ci.org/DanRovito/pokephp) [![StyleCI](https://styleci.io/repos/59025645/shield)](https://styleci.io/repos/59025645) [![License](https://poser.pugx.org/danrovito/pokephp/license?format=flat-square)](https://packagist.org/packages/danrovito/pokephp) [![Total Downloads](https://poser.pugx.org/danrovito/pokephp/downloads?format=flat-square)](https://packagist.org/packages/danrovito/pokephp) [![Latest Stable Version](https://poser.pugx.org/danrovito/pokephp/v/stable?format=flat-square)](https://packagist.org/packages/danrovito/pokephp)
+[![Build Status](https://travis-ci.org/darovi/pokephp.svg?branch=master)](https://travis-ci.org/darovi/pokephp) [![StyleCI](https://styleci.io/repos/59025645/shield)](https://styleci.io/repos/59025645) [![License](https://poser.pugx.org/darovi/pokephp/license?format=flat-square)](https://packagist.org/packages/darovi/pokephp) [![Total Downloads](https://poser.pugx.org/darovi/pokephp/downloads?format=flat-square)](https://packagist.org/packages/darovi/pokephp) [![Latest Stable Version](https://poser.pugx.org/darovi/pokephp/v/stable?format=flat-square)](https://packagist.org/packages/darovi/pokephp)
 
 # Getting Started
 
 To get started you must first install the package from composer.
 
 ```
-composer require danrovito/pokephp
+composer require darovi/pokephp
 ```
 
 After composer installs the required package you can call the class by setting the following:
