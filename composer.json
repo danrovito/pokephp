@@ -1,5 +1,5 @@
 {
-    "name": "danrovito/pokephp",
+    "name": "darovi/pokephp",
     "description": "Pokeapi PHP Wrapper",
     "keywords": [
         "pokemon",
@@ -10,7 +10,7 @@
     "authors": [
         {
             "name": "Dan Rovito",
-            "email": "danrovito@gmail.com"
+            "email": "dan@darovi.co"
         }
     ],
     "require": {
