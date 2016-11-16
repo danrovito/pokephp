@@ -1,7 +1,7 @@
 # PokePHP
 A PHP Wrapper for the [Pokemon API](https://pokeapi.co/)
 
-[![Build Status](https://travis-ci.org/darovi/pokephp.svg?branch=master)](https://travis-ci.org/darovi/pokephp) [![StyleCI](https://styleci.io/repos/59025645/shield)](https://styleci.io/repos/59025645) [![License](https://poser.pugx.org/darovi/pokephp/license?format=flat-square)](https://packagist.org/packages/darovi/pokephp) [![Total Downloads](https://poser.pugx.org/darovi/pokephp/downloads?format=flat-square)](https://packagist.org/packages/darovi/pokephp) [![Latest Stable Version](https://poser.pugx.org/darovi/pokephp/v/stable?format=flat-square)](https://packagist.org/packages/darovi/pokephp)
+[![Build Status](https://travis-ci.org/Darovi/pokephp.svg?branch=master)](https://travis-ci.org/Darovi/pokephp) [![StyleCI](https://styleci.io/repos/59025645/shield)](https://styleci.io/repos/59025645) [![License](https://poser.pugx.org/darovi/pokephp/license?format=flat-square)](https://packagist.org/packages/darovi/pokephp) [![Total Downloads](https://poser.pugx.org/darovi/pokephp/downloads?format=flat-square)](https://packagist.org/packages/darovi/pokephp) [![Latest Stable Version](https://poser.pugx.org/darovi/pokephp/v/stable?format=flat-square)](https://packagist.org/packages/darovi/pokephp)
 
 # Getting Started
 
