@@ -8,7 +8,7 @@ A PHP Wrapper for the [Pokemon API](https://pokeapi.co/)
 To get started you must first install the package from composer.
 
 ```
-composer require darovi/pokephp
+composer require danrovito/pokephp
 ```
 
 After composer installs the required package you can call the class by setting the following:
