@@ -367,8 +367,8 @@ class PokeApi
         if ($http_code != 200) {
             // return http code and error message
             return json_encode([
-                'code' => $http_code,
-                'message' => $data
+                'code'    => $http_code,
+                'message' => $data,
             ]);
         }
 
