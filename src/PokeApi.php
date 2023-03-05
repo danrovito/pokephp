@@ -347,19 +347,22 @@ class PokeApi
      */
     public function sendRequest($url)
     {
-        $ch = curl_init();
+        $curlHandler = curl_init();
 
         $timeout = 5;
 
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-        $data = curl_exec($ch);
+        curl_setopt_array($curlHandler, [
+            CURLOPT_URL => $url,
+            CURLOPT_FOLLOWLOCATION => true,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_CONNECTTIMEOUT => $timeout
+        ]);
 
-        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $data = curl_exec($curlHandler);
 
-        curl_close($ch);
+        $http_code = curl_getinfo($curlHandler, CURLINFO_HTTP_CODE);
+
+        curl_close($curlHandler);
 
         if ($http_code != 200) {
             // return http code and error message
