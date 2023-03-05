@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PokePHP;
 
-final readonly class HttpClient
+final class HttpClient
 {
   private \CurlHandle $curl;
 
