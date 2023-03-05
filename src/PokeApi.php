@@ -342,36 +342,8 @@ class PokeApi
         return $this->sendRequest($url);
     }
 
-    /**
-     * @param string $url
-     */
-    public function sendRequest($url)
+    public function sendRequest(string $url): string|bool
     {
-        $curlHandler = curl_init();
-
-        $timeout = 5;
-
-        curl_setopt_array($curlHandler, [
-            CURLOPT_URL => $url,
-            CURLOPT_FOLLOWLOCATION => true,
-            CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_CONNECTTIMEOUT => $timeout
-        ]);
-
-        $data = curl_exec($curlHandler);
-
-        $http_code = curl_getinfo($curlHandler, CURLINFO_HTTP_CODE);
-
-        curl_close($curlHandler);
-
-        if ($http_code != 200) {
-            // return http code and error message
-            return json_encode([
-                'code'    => $http_code,
-                'message' => $data,
-            ]);
-        }
-
-        return $data;
+        return (new HttpClient($url))->request();
     }
 }
