@@ -11,7 +11,7 @@ final class PokeApi
         $this->query = new Query('https://pokeapi.co/api/v2/');
     }
 
-    public function search(string $filter, ?mixed $value = null): self
+    public function search(string $filter, mixed $value = null): self
     {
         $this->query->filter($filter, $value);
 

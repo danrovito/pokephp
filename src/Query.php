@@ -15,7 +15,7 @@ final class Query implements \Stringable
   ) {
   }
 
-  public function filter(string $filter, ?mixed $value = null): self
+  public function filter(string $filter, mixed $value = null): self
   {
     $this->base .= $filter . '/' . $value . '/';
 
