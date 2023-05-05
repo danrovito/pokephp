@@ -2,13 +2,10 @@
 
 namespace PokePHP;
 
-final class PokeApi
+final readonly class PokeApi
 {
-    private readonly Query $query;
-
-    public function __construct()
+    public function __construct(private Query $query)
     {
-        $this->query = new Query('https://pokeapi.co/api/v2/');
     }
 
     public function search(string $filter, mixed $value = null): self
