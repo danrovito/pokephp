@@ -29,6 +29,51 @@ $response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->request();
 
 ```
 
+### Pagination
+You can add `offset()` for the next source list
+```php
+$response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->offset(20)->request();
+
+```
+Or you can use the `page()` function for simplicity.
+```php
+$response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->page(2)->request();
+
+```
+Or both, but the `offset()` function will overwrite the result of the `page()` function 
+```php
+$response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->page(2)->offset(20)->request();
+
+```
+Is same with
+```php
+$response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->offset(20)->page(2)->request();
+
+```
+
+### Type Response
+Basically, the 'request' function just returns a raw response from PokeAPI. If you use `var_dump()` it will indicate that the type is `string`.
+
+But now you can choose your preferred response type
+
+Default type / string:
+```php
+$response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->request();
+
+```
+
+Array type:
+```php
+$response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->request(PokeApi::ARRAY);
+
+```
+
+Object type:
+```php
+$response = $api->search(Filter::POKEMON_COLOR, 'red')->limit(5)->request(PokeApi::OBJECT);
+
+```
+
 ## License
 
 pokephp is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
