@@ -8,15 +8,15 @@ final class Query implements \Stringable
 {
     private ?string $filter;
 
-    private int $limit  = 20;
+    private int $limit = 20;
 
     private int $offset = 20;
 
-    private int $page   = 1;
+    private int $page = 1;
 
     private string $base;
 
-    public function __construct($base) 
+    public function __construct($base)
     {
         $this->base = $base;
     }
@@ -38,7 +38,7 @@ final class Query implements \Stringable
     }
 
     /**
-     * this function is to set the offset
+     * this function is to set the offset.
      */
     public function offset(int $offset = 20)
     {
@@ -48,7 +48,7 @@ final class Query implements \Stringable
     }
 
     /**
-     * this function is to simplify the 'offset' as page
+     * this function is to simplify the 'offset' as page.
      */
     public function page(int $page = 1)
     {
@@ -64,37 +64,34 @@ final class Query implements \Stringable
         }
 
         if (isset($this->limit)) {
-            $this->base .= '&limit=' . $this->limit;
+            $this->base .= '&limit='.$this->limit;
         }
 
         /**
          * if offset has setted, so offset will be priority
-         * page is second priority
+         * page is second priority.
          */
         if (isset($this->offset)) {
-
-            $this->base .= '&offset=' . $this->offset;
-        
-        }elseif (isset($this->page)) {
-
+            $this->base .= '&offset='.$this->offset;
+        } elseif (isset($this->page)) {
             $offset = $this->limit * $this->page;
 
-            $this->base .= '&offset=' . $offset;
+            $this->base .= '&offset='.$offset;
         }
     }
 
     public function clear()
     {
         $this->filter = null;
-        $this->limit  = 20;
+        $this->limit = 20;
         $this->offset = 20;
-        $this->page   = 1;
+        $this->page = 1;
     }
 
     public function __toString(): string
     {
         $this->build();
-        
+
         $finalUrl = $this->base;
         $this->clear();
 
